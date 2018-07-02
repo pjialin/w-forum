@@ -15,8 +15,30 @@ export default {
     window: {
         backgroundTextStyle: 'light',
         navigationBarBackgroundColor: '#fff',
-        navigationBarTitleText: 'WeChat',
+        navigationBarTitleText: '微论坛',
         navigationBarTextStyle: 'black',
-    }
+    },
+      "tabBar": {
+        color:"#5a5a5a",
+          selectedColor:"#4e90d9",
+          backgroundColor: "#fff",
+          borderStyle: "white",
+          "list": [{
+              "pagePath": "pages/index/main",
+              "iconPath": "static/images/home.png",
+              "selectedIconPath": "static/images/home-select.png",
+              "text": "首页"
+          }, {
+              "pagePath": "pages/index/main",
+              "iconPath": "static/images/post.png",
+              "selectedIconPath": "static/images/post-select.png",
+              "text": "发帖"
+          }, {
+              "pagePath": "pages/index/main",
+              "iconPath": "static/images/user.png",
+              "selectedIconPath": "static/images/user-select.png",
+              "text": "我的"
+          }]
+      },
   }
 }
