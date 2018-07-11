@@ -45,7 +45,6 @@
 </script>
 
 <style scoped lang="scss">
-    @import "../../assets/plugins/iconfont/iconfont.css";
     #content{
         background: #fbfcfe;
         #search{
@@ -129,17 +128,6 @@
                     margin: 10px 0;
                 }
                 .actions{
-                    .tags{
-                        display: inline;
-                        span{
-                            background: #f5f5f5;
-                            border-radius: 3px;
-                            font-size: 12px;
-                            color: rgba(#000, .7);
-                            padding: 3px 5px;
-                            margin-right: 10px;
-                        }
-                    }
                     > span{
                         float: right;
                         font-size: 12px;
