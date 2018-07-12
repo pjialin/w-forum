@@ -29,12 +29,18 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 1,
 			"list": [
 				{
 					"id": -1,
 					"name": "帖子详情",
-					"pathName": "pages/post-info/main"
+					"pathName": "pages/post-info/main",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": " 发帖",
+					"pathName": "pages/post/main"
 				}
 			]
 		}
