@@ -12,6 +12,9 @@ export default {
 </script>
 
 <style lang="scss">
+    page{
+        height: 100%;
+    }
     @import "assets/scss/main";
     @import "./assets/plugins/iconfont/iconfont.css";
 

@@ -29,12 +29,12 @@ export default {
               "selectedIconPath": "static/images/home-select.png",
               "text": "首页"
           }, {
-              "pagePath": "pages/index/main",
+              "pagePath": "pages/post/main",
               "iconPath": "static/images/post.png",
               "selectedIconPath": "static/images/post-select.png",
               "text": "发帖"
           }, {
-              "pagePath": "pages/index/main",
+              "pagePath": "pages/user/main",
               "iconPath": "static/images/user.png",
               "selectedIconPath": "static/images/user-select.png",
               "text": "我的"
