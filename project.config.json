@@ -29,7 +29,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
+			"current": 0,
 			"list": [
 				{
 					"id": -1,
@@ -53,6 +53,24 @@
 					"id": -1,
 					"name": " 他的主页",
 					"pathName": "pages/show-user/main",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "我的收藏",
+					"pathName": "pages/my-favorite/main",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "我的帖子",
+					"pathName": "pages/my-post/main",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "关注",
+					"pathName": "pages/follow/main",
 					"query": ""
 				}
 			]

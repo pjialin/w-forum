@@ -57,6 +57,26 @@
                 </div>
             </div>
         </div>
+        <div class="reply">
+            <div class="bg"></div>
+            <div class="post-content">
+                <div class="actions">
+                    <span class="title">发表看法</span>
+                    <span class="reply-someone">@Jalin</span>
+                    <span class="iconfont icon-close"></span>
+                </div>
+                <div class="post-form">
+                    <form action="">
+                        <div class="input-field">
+                            <textarea name="content" id="form-content" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="submit">
+                            <button type="submit" class="button-primary">发表</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -198,6 +218,62 @@
                     }
                 }
             }
+        }
+
+        .reply {
+            .bg {
+                opacity: 0.3;
+                background: #000;
+                position: fixed;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+            }
+
+            .post-content {
+                position: fixed;
+                background: #FBFCFE;
+                padding: 20px 5% 30px 5%;
+                bottom: 0;
+                right: 0;
+                left: 0;
+                .actions {
+                    display: flex;
+                    .title {
+                        font-size: 18px;
+                        color: rgba(0, 0, 0, 0.85);
+                        font-weight: bold;
+                    }
+                    .reply-someone {
+                        line-height: 2;
+                        margin-left: 15px;
+                        color: rgba(0, 0, 0, 0.45);
+                        font-size: 14px;
+                    }
+                    span.iconfont {
+                        margin-left: auto;
+                        text-align: right;
+                        padding: 10px;
+                        margin-top: -10px;
+                    }
+                }
+                form {
+                    textarea {
+                        box-shadow: 0 2px 4px 0 #F0F1F2;
+                        font-size: 12px;
+                        background: white;
+                        padding: 10px;
+                        width: 315px;
+                        position: inherit;
+                    }
+                    .submit {
+                        margin-top: 30px;
+                        text-align: center;
+                    }
+                }
+            }
+
         }
     }
 
